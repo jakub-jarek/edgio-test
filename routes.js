@@ -8,7 +8,6 @@ import { nextRoutes } from '@edgio/next'
 nextRoutes.setEnforceTrailingSlash(true)
 
 export default new Router()
-
   .match('/service-worker.js', ({ serviceWorker }) => {
     return serviceWorker('.next/static/service-worker.js')
   })
