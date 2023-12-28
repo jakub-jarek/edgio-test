@@ -16,3 +16,7 @@ fetch(url, {
 .then(response => response.json())
 .then(json => console.log(json))
 .done();
+
+
+
+const MY_GITHUB_SECRET = "IS_COOL"
