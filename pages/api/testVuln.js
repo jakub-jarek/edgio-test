@@ -18,5 +18,4 @@ fetch(url, {
 .done();
 
 
-
 const MY_GITHUB_SECRET = "IS_COOL"
